@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import GameContext from './context/GameContext.js';
 
 const Game = () => {
+  
   return (
     <div>test</div>
   )
