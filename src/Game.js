@@ -1,11 +1,13 @@
-import React from 'react';
+import React, {useContext, useState} from 'react';
 import styled from 'styled-components';
-import SceneStart from './SceneStart.js';
-import SceneSelect from './SceneSelect.js';
-import SceneMain from './SceneMain/SceneMain.js';
 import GameContext from './context/GameContext.js';
 
-
+const Game = () => {
+  return (
+    <div>test</div>
+  )
+}
+/*
 class Game extends React.Component {
   
   constructor(props) {
@@ -20,12 +22,6 @@ class Game extends React.Component {
     
 
     this.state = {
-      /*
-      life: 3,
-      scene: 'start',
-      selfPrefecture: null,
-      setSelfPrefecture: this.setSelfPrefecture
-      */
       life: 3,
       scene: 'main',
       selfPrefecture: 'hkd',
@@ -97,5 +93,7 @@ const GameView = styled.div`
   overflow: hidden;
   width: 100%;
 `;
+
+*/
 
 export default Game;
